@@ -1,0 +1,58 @@
+html {
+    background: #fff;
+}
+
+body {
+    font-family: "Courier New", Courier, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10 auto;
+    max-width: 1500px;
+    padding: 2em 2em 4em;
+    display:inline-block;
+    float: left;
+}
+
+nav {
+    background-color: #fff; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    float:right;
+}
+
+nav li {
+    display: inline-block;
+    margin: 100 auto;
+    color: #051e31;
+    font-size: 16px;
+    padding: 16px;
+}
+nav a {
+    color: #032036;
+}
+
+nav a:hover {
+    color: #ccc90c; 
+}
+
+/*class*/
+.video {
+    display: inline-block;
+}
+
+/*id*/
+#big {
+    font-size: 100px;
+    line-height: 1.5;
+    margin: auto;
+    max-width: 1000px;
+    align-content: center;
+}
+#universe {
+    display: 90;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
